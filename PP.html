@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> JINBOI </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" type="image/png" href="img/Fav_Logo.png">
+        
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style2.css">
+        
+        <link rel="stylesheet" type="text/css" href="css/media.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="https://slick.chat/dontcomplainjustwork/5a99f8248a9dd2341a8d5a7c/frontendscript.js"> </script> 
+        
+	</head>
+[출처] owl carousel 슬라이드 플러그인 사용하기|작성자 찡이찡
+
+      <title> JINBOI </title>
+
+
+
+   
+
+    
+<body>
+    <div class="container">
+        <nav id="navbar" class="navbar navbar-inverse navbar-fixed-top"   role="navigation">
+  			<div class="container-fluid">
+  				<!-- Brand and toggle get grouped for better mobile display -->
+  				<div class="navbar-header">
+  					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+  						<span class="sr-only">Toggle Navigation</span>
+  						<span class="icon-bar"></span>
+  						<span class="icon-bar"></span>
+  						<span class="icon-bar"></span>
+  					</button>
+  					<a id="brand" class="navbar-brand"><img id="brand-image" alt="Website Logo" src="img/Logo6.png"/></a>
+                    
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                 
+  				</div>
+
+  				<!-- Collect the nav links, forms, and other content for toggling -->
+  				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  					<ul id="navbar-nav" class="nav navbar-nav">
+  						<li><a href="Main.html" class="home">Home<span class="sr-only"></span></a></li>
+  					    <li class="dropdown">
+  							<a href="Writings.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Writings <span class="caret"></span></a>
+
+  							<ul id="drop" class="dropdown-menu col-xs-12" role="menu">
+  								<li><a id="ddown_list" href="Diary.html">- Diary</a></li>
+  								<li><a id="ddown_list" href="Poem.html">- Poem</a></li>
+  							</ul>
+  						</li>
+                        <li class="dropdown">
+  							<a href="Drawings.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Arts <span class="caret"></span></a>
+
+  							<ul id="drop" class="dropdown-menu" role="menu">
+  								<li><a id="ddown_list"href="Drawings.html">- Drawings</a></li>
+  								<li><a id="ddown_list"href="Photos.html">- Photos</a></li>
+  							</ul>                        
+  						</li>
+  						<li><a href="Updates.html">Updates<span class="sr-only">(current)</span></a></li>
+  					</ul>
+
+  					<form class="navbar-form navbar-right" role="search">
+  						<div class="form-group">
+  							<input type="text" class="form-control" placeholder="Search" />
+  						</div>
+
+  						<button type="submit" class="btn btn-default">Search</button>
+  					</form>
+                    
+                    <ul id="sns" class="nav navbar-nav navbar-right">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                    
+  				
+
+  				</div><!-- navbar collapse end -->
+  			</div><!-- container-fluid end -->
+  		</nav>
+    
+
+
+    <div class="container-fluid">
+        <h2>Hello World!</h2>
+        <P>This is some of the website content</P>
+        <div class="row">
+            <div class="col-sm-4 left">This is the left side</div>
+            <div class="col-sm-4 center">This is the center</div>
+            <div class="col-sm-4 right">This is the right side</div>
+        </div>
+
+    </div>
+
+   
+    
+<footer id="footer">
+    
+</footer>
+    
+</div>
+    
+    
+<div class="owl-carousel owl-theme">
+    <div class="item"><h4>1</h4></div>
+    <div class="item"><h4>2</h4></div>
+    <div class="item"><h4>3</h4></div>
+    <div class="item"><h4>4</h4></div>
+    <div class="item"><h4>5</h4></div>
+    <div class="item"><h4>6</h4></div>
+    <div class="item"><h4>7</h4></div>
+    <div class="item"><h4>8</h4></div>
+    <div class="item"><h4>9</h4></div>
+    <div class="item"><h4>10</h4></div>
+    <div class="item"><h4>11</h4></div>
+    <div class="item"><h4>12</h4></div>
+</div>
+
+<script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+</script>
+
+    
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>    
+<script type="text/javascript" src="js/prefixfree.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+</body>
+</html>

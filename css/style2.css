@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+
+
+
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+
+#sns .fa { font-size:25px; color:skyblue; opacity:0.5;	transform:scale(1); 	transition:all 0.5s;}
+#sns .fa:hover { opacity:1; transform:scale(1.4);}
+
+
+#sns2 .fa { font-size:25px; color:#FF0000; opacity:0.5;	transform:scale(1); 	transition:all 0.5s;}
+#sns2 .fa:hover { opacity:1; transform:scale(1.4);}
+
+
+html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+#content {
+  position: relative;
+}
+
+
+#accordion {
+  position: absolute;
+  padding-top: 10px;
+  z-index: 1;
+}
+
+
+
+
+footer{
+    position: relative;
+    width: 100%; 
+    height: 50px;
+    background: #333; 
+    margin-bottom: 0px;
+    clear:both;
+}
+footer img {width: 20%; height: auto;}
+
+
+
+.left {
+    background-color: #ccc;
+}
+
+.center {
+    background-color: #eee;
+    padding: 0px;
+}
+
+.right {
+    background-color: #ccc;
+}
+
+
+#brand
+    	{
+            width: 120px;
+            height: 75px;
+            margin-left: auto;
+            position: inherit;
+            margin-top: -27.55px;
+            
+            
+        }
+
+
+
+
+
+/*레이아웃*/
+section { position:fixed; top:50%; left:0px; margin-top:-250px; width:4600px; height:500px; }
+article { position:relative; top:50%; width:180px; height:400px; margin:10px; margin-top:-200px; box-sizing:border-box; float:left; background:#fff; border-radius:5px; box-shadow:3px 3px 3px #bbb; overflow:hidden; transition:all 0.7s; }
+
+/*포폴 제목*/
+article h2 { position:absolute; top:300px; right:0px; width:100%; height:50px; box-sizing:border-box; padding-left:20px; background:#111;  opacity:0.4; z-index:2; cursor:pointer; transition:all 0.5s; }
+article:hover h2 { opacity:0.8;}
+article h2 a { font-size:14px; font-weight:bold; line-height:3.5; color:#fff; letter-spacing:2px; transition:all 0.5s;}
+
+/*포폴 썸네일*/
+article strong { display:block; position:absolute; left:0px; top:0px;  width:100%; height:300px; opacity:0.4; overflow:hidden; text-align:center; transition:all 0.5s; }
+article:hover strong { opacity:1; }
+article strong img {height:300px; width:auto;}
+
+
+/*포폴 이미지*/
+article p { position:absolute; top:50%; right:0%; z-index:1; margin-top:0px; width:100%; height:0px; text-align:center; overflow:hidden; background-color:#fff; opacity:0; transition:all 0.8s; }
+article p img { width:auto; height:100%; }
+
+/*포폴 설명*/
+article em { position:absolute; bottom:50px; right:-300px; z-index:2; display:inline-block; box-sizing:border-box; padding:10px 20px; background:#000; color:#fff; opacity:0.8; transition:all 1s;}
+
+/*닫기버튼*/
+section span { position:absolute; top:110px; right:-300px; z-index:3; font-size:20px; color:#fff; cursor:pointer;}
+
+/*copyright*/
+.copyright { position:fixed; bottom:20px; right:30px; font:12px/1.5 arial; letter-spacing:4px; color:#999; text-align:center;}
+
+/*클릭시 변형된 모습*/
+article.on { width:780px; height:500px; margin-top:-250px; }
+article.on h2 { top:100px; height:100px; background:#111; opacity:0.3;}
+article.on h2 a { font-size:30px; color:#fff; }
+article.on strong { opacity:0;}
+article.on p { height:500px; margin-top:-250px; opacity:1;}
+article.on em { right:20px; }
+article.on span { right:20px;}
+
+
+
+
+
+

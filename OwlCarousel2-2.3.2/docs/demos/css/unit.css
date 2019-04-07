@@ -1,0 +1,26 @@
+.slide {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide ul {
+    width: 100%;
+    list-style: none;
+    font-size: 0;
+    
+}
+
+.slide ul li {
+    display: inline-block;
+    
+}
+
+.slide button.prev {
+    
+    
+}
+
+.slide button.next {
+    
+    
+}
